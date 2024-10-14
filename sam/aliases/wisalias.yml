@@ -1,0 +1,8 @@
+kind: WebMethodsISServiceAlias
+apiVersion: api.webmethods.io/beta
+metadata:
+ name: wm_is_service_alias
+ version: 1.0
+ namespace: beta
+spec:
+    name: bsjkd

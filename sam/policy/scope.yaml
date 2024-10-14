@@ -1,0 +1,11 @@
+kind: Scope
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: dev_scope
+  version: 1.0
+
+spec:
+  resources:
+    - path: path
+  policy-seq: 
+    - $ref: scoped_policy_sequence:1.0 # reference to policy sequence asset model

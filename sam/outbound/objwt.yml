@@ -1,0 +1,11 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: OutboundIncomingJWT
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: OutboundIncomingJWT
+  version: 1.0
+  namespace: sample  
+spec:
+  dik:

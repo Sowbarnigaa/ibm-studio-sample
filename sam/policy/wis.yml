@@ -1,0 +1,15 @@
+kind: WebMethodsISService
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Custom extension
+  version: 1
+spec:
+    enabled: true
+    condition: |
+      (${request.headers.test} equals test1) or 
+      (${request.headers.test} notEquals ${request.payload.jsonPath[$.customer.name]})
+    services:
+      - name: sbikhk
+        runAs: default
+        complyToISSpec: true
+    alias: 'alias'

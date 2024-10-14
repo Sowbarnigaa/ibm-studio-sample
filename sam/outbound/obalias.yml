@@ -1,0 +1,4 @@
+kind: OutboundAlias
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: OutboundAlias

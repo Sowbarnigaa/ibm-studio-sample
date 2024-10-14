@@ -1,0 +1,8 @@
+kind: XsltTransformationAlias
+apiVersion: api.webmethods.io/beta
+
+metadata:
+ name: Xslt_transformation_alias
+ version: 1.0
+ namespace: beta
+spec:  

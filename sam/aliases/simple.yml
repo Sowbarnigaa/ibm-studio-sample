@@ -1,0 +1,10 @@
+kind: SimpleAlias
+apiVersion: api.webmethods.io/beta
+metadata:
+ name: simple_alias
+ version: 1.0
+ namespace: beta
+ tags:
+    - sample
+spec:
+    value:  jl

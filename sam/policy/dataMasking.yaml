@@ -1,0 +1,22 @@
+#
+# Copyright Super iPaaS Integration LLC, an IBM Company 2024
+#
+kind: DataMasking
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: request_datamasking
+  version: 1.0
+  
+spec:
+  enabled: false
+  matchApplications:
+    - consumer1
+    - consumer2
+  transformations:
+    set:
+      - value
+    remove:
+        - ${request.query.authorization}
+        - ${request.path}
+  applyForTransactionLogging: true
+  applyForPayload: true

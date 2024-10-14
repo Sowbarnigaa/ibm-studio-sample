@@ -1,0 +1,11 @@
+#Conditional routing
+kind: Route
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: default_route
+  version: 1.1
+  namespace: dev
+spec:
+  default-endpoint:
+    $ref: dev:default_endpoint:1.1
+ 

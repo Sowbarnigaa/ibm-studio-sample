@@ -1,0 +1,33 @@
+kind: IdentifyAndAuthorize
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: identify_and_authorize
+
+spec:
+  enabled: true 
+  triggerPolicyViolation: true
+  identificationType:
+    or:
+      apiKey:
+        applicationLookup: 'global' #Other values are 'registered' & 'anonymous'
+      hostNameAddress:
+        applicationLookup: 'registered'
+      httpBasicAuth:
+        applicationLookup: 'registered'
+      ipAddressRange:
+        applicationLookup: 'registered'
+      jwt:
+        applicationLookup: 'registered'
+      kerberosToken:
+        applicationLookup: 'registered'
+        servicePrincipalName: ''
+        servicePrincipalPassword: ''
+      openIdConnect:
+        applicationLookup: 'registered' 
+      sslCertificate:
+        applicationLookup: 'registered'
+      payloadElement:
+        applicationLookup: 'registered'
+
+      httpHeaders:
+        applicationLookup: 'registered'
