@@ -35,7 +35,9 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1728379643739
-  new:
-    description: ''
-    tags: []
-    lastUpdated: 1734500310937
+  Banking:
+    description: 'transactions '
+    tags:
+      - transaction
+      - banking
+    lastUpdated: 1738913110109
