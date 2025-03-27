@@ -24,7 +24,7 @@ spec:
         sslVerification: false
         encodeURL: true
       assertions:
-         $ref: daso:basicassert:alpha
+         $ref: sample:assert1:1.0
     - method: GET
       resource: /pet/{petid}
       headers:
