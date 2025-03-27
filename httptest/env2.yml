@@ -1,0 +1,15 @@
+kind: environment
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: env2
+  namespace: sample
+  version: 'alpha'
+  tags: []
+spec:
+  variables:
+    - key: "accept"
+      isSecret: false
+      value: "application/json"
+    - key: "method"
+      isSecret: false
+      value: "POST"

@@ -1,0 +1,12 @@
+kind: environment
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: env1
+  namespace: sample
+  version: '1.0'
+  tags: []
+spec:
+  variables:
+    - key: dsxvy
+      isSecret: true
+      value: svhv

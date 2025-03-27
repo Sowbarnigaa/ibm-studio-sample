@@ -1,0 +1,41 @@
+kind: test
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: test1
+  namespace: sample
+  version: '1.0'
+  tags: []
+spec:
+  api:
+    $ref: dev:jul101817:1.0
+  environment:
+    $ref: sample:env2:alpha
+  request:
+    - method: GET
+      resource: /pet/11
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+        - key: Accept
+          value: ${accept}
+      auth:
+        noauth: true
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+         $ref: daso:basicassert:alpha
+    - method: GET
+      resource: /pet/{petid}
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+        - key: Accept
+          value: ${accept}
+      auth:
+        noauth: true
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+        $ref: sample:assert1:1.0

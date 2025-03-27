@@ -1,0 +1,16 @@
+kind: assertion
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: assert1
+  namespace: sample
+  version: '1.0'
+  tags: []
+spec:
+  - name: Validate the response status
+    key: code
+    action: equals
+    value: "200"
+  - name: Less Than the response Time
+    key: responseTime
+    action: lessThan
+    value: "1000"
