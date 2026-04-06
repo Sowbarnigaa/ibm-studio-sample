@@ -8,3 +8,5 @@ spec:
     protocol:
       - http
       - https
+    new:
+      - abc
