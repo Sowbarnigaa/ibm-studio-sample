@@ -3,58 +3,41 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1722494258511
+    id: C9l17M0a
   sam:
     description: ''
     tags: []
     lastUpdated: 1722494299715
+    id: fCuKNOGO
   new2:
     description: ''
     tags: []
     lastUpdated: 1723182995734
-  try:
-    description: ''
-    tags: []
-    lastUpdated: 1724759544387
-  PolicyTest:
-    description: ''
-    tags: []
-    lastUpdated: 1727946158306
+    id: RHQTxDcp
   httptest:
     description: ''
     tags: []
     lastUpdated: 1728298466984
-  testsample:
-    description: test
-    tags: []
-    lastUpdated: 1728376224465
-  testing:
-    description: ''
-    tags: []
-    lastUpdated: 1728376251272
-  newone:
-    description: ''
-    tags: []
-    lastUpdated: 1728379643739
+    id: DGANO5dD
   Banking:
     description: 'transactions '
     tags:
       - transaction
       - banking
     lastUpdated: 1738913110109
-  tryon:
-    description: ''
-    tags: []
-    lastUpdated: 1738920207977
+    id: cqFBP3hL
   mcptrytools:
     description: ''
     tags: []
     lastUpdated: 1751355153933
+    id: bCLgI8Zs
   Hogwarts:
     description: Hogwarts api
     tags:
       - transaction
       - banking
     lastUpdated: 1752674639240
+    id: ZA5IgCvg
   montraffic12:
     id: skzx876v
     description: ''
