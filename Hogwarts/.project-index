@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "353fee9e-ff3d-4f13-9b82-3a34a4b976d9:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/policySeq/policyseq.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533768670,
+      "schemaVersion": 1
+    },
+    {
+      "id": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/petstore.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767854,
+      "schemaVersion": 1
+    },
+    {
+      "id": "70faf2dd-68d5-4e55-9b5d-fdd67db812fa:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/policyseq.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533768684,
+      "schemaVersion": 1
+    },
+    {
+      "id": "c570578c-be91-437f-9a53-a93c2396f47d:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/transportPolicy.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533769346,
+      "schemaVersion": 1
+    },
+    {
+      "id": "dbf7b829-3153-4d2f-9286-01ca8839760f:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/route.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1777533769340,
+      "schemaVersion": 1,
+      "kind": "Route",
+      "name": "my-default-routing",
+      "namespace": "dev",
+      "version": 1,
+      "contentHash": "aaf0168a96f30517"
+    },
+    {
+      "id": "df44160c-3528-4945-9d98-c1674f3e3fb8:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/api.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767131,
+      "schemaVersion": 1
+    },
+    {
+      "id": "e6ecf899-8fd2-4c94-a722-2afcee86a26e:0",
+      "projectId": "ZA5IgCvg",
+      "filePath": "Hogwarts/endpoint.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767847,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "16e84c20-b31e-402f-aaa8-34fb841a8c94",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "df44160c-3528-4945-9d98-c1674f3e3fb8:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "petstore.yaml",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: petstore.yaml",
+      "createdAt": 1777533767134,
+      "lastValidated": 1777533767134
+    },
+    {
+      "id": "321d49be-b262-47ce-bc16-bbb22c454089",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Order",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Order",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "3bfb6cd7-9296-4e0e-91f1-136e3619a952",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "70faf2dd-68d5-4e55-9b5d-fdd67db812fa:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:my-default-routing:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:my-default-routing:1.0",
+      "createdAt": 1777533768686,
+      "lastValidated": 1777533768686
+    },
+    {
+      "id": "47644e00-38e3-4985-ad49-0e425da6f724",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Tag",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Tag",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "4fb57d50-4fef-4c58-b1db-bee3cc3318aa",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/User",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/User",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "503c0edd-f61b-4c2d-a156-f24147df8849",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Category",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Category",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "5c33aaf9-c3ea-4217-803c-3470d1a45cfc",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "353fee9e-ff3d-4f13-9b82-3a34a4b976d9:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:my-default-routing:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:my-default-routing:1.0",
+      "createdAt": 1777533768678,
+      "lastValidated": 1777533768678
+    },
+    {
+      "id": "6c4a6ee3-ecb7-4e2b-8a67-c38f44adb670",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "353fee9e-ff3d-4f13-9b82-3a34a4b976d9:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:enable_https:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:enable_https:1.0",
+      "createdAt": 1777533768678,
+      "lastValidated": 1777533768678
+    },
+    {
+      "id": "715ae452-97b1-4d3a-a82c-14ba4916e779",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "70faf2dd-68d5-4e55-9b5d-fdd67db812fa:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:enable_https:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:enable_https:1.0",
+      "createdAt": 1777533768686,
+      "lastValidated": 1777533768686
+    },
+    {
+      "id": "8c6cf5c2-a134-46b6-92dd-7149ee9c335e",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Pet",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Pet",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "b65d7098-179f-4151-9f52-b4724901b28f",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "df44160c-3528-4945-9d98-c1674f3e3fb8:0",
+      "targetNodeId": "1f2f1ca7-f4d6-4df0-bc16-bfb2002c5b85:0",
+      "targetRefType": "cross-project",
+      "targetRefString": "dev:dev_policies:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1777533767134,
+      "lastValidated": 1777533767134
+    },
+    {
+      "id": "c2c94c2d-2807-46f8-9cd6-1afb4113c91e",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "593600dd-ac28-42c3-aff8-3d44de0a0344:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/ApiResponse",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/ApiResponse",
+      "createdAt": 1777533767864,
+      "lastValidated": 1777533767864
+    },
+    {
+      "id": "ef440526-da81-411e-bc3c-c382d2a1ce4c",
+      "projectId": "ZA5IgCvg",
+      "sourceNodeId": "dbf7b829-3153-4d2f-9286-01ca8839760f:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:default_endpoint:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:default_endpoint:1.0",
+      "createdAt": 1777533769344,
+      "lastValidated": 1777533769344
+    }
+  ]
+}

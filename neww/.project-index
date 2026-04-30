@@ -1,0 +1,107 @@
+{
+  "nodes": [
+    {
+      "id": "05926452-f401-473f-b884-0a970907c2d2:0",
+      "projectId": "C9l17M0a",
+      "filePath": "neww/api.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533755094,
+      "schemaVersion": 1
+    },
+    {
+      "id": "be473306-74c4-49e8-a868-b563b288a702:0",
+      "projectId": "C9l17M0a",
+      "filePath": "neww/route3.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533756499,
+      "schemaVersion": 1
+    },
+    {
+      "id": "c218bb5a-49cf-4cec-b7f8-41609f08c8bf:0",
+      "projectId": "C9l17M0a",
+      "filePath": "neww/api2.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533755819,
+      "schemaVersion": 1
+    },
+    {
+      "id": "fdb07568-0c88-4a43-8e20-78c8d0eeb340:0",
+      "projectId": "C9l17M0a",
+      "filePath": "neww/transport2.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533757228,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "0394f441-88b1-4e7a-8327-015e6ab48e67",
+      "projectId": "C9l17M0a",
+      "sourceNodeId": "c218bb5a-49cf-4cec-b7f8-41609f08c8bf:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:dev_policies:1.2",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:dev_policies:1.2",
+      "createdAt": 1777533755822,
+      "lastValidated": 1777533755822
+    },
+    {
+      "id": "555a657f-cace-42d0-8961-07b22d38b848",
+      "projectId": "C9l17M0a",
+      "sourceNodeId": "c218bb5a-49cf-4cec-b7f8-41609f08c8bf:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:dev_policies:1.1",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:dev_policies:1.1",
+      "createdAt": 1777533755822,
+      "lastValidated": 1777533755822
+    },
+    {
+      "id": "563979f3-b27f-4163-8c50-65e9eac035a3",
+      "projectId": "C9l17M0a",
+      "sourceNodeId": "05926452-f401-473f-b884-0a970907c2d2:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:dev_policies:1.1",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:dev_policies:1.1",
+      "createdAt": 1777533755096,
+      "lastValidated": 1777533755096
+    },
+    {
+      "id": "a6f7bc9c-780a-4498-bd86-5b54d09eff43",
+      "projectId": "C9l17M0a",
+      "sourceNodeId": "05926452-f401-473f-b884-0a970907c2d2:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "petstore.yaml",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: petstore.yaml",
+      "createdAt": 1777533755096,
+      "lastValidated": 1777533755096
+    },
+    {
+      "id": "eb188858-8410-415d-9f04-b043ad5b2078",
+      "projectId": "C9l17M0a",
+      "sourceNodeId": "c218bb5a-49cf-4cec-b7f8-41609f08c8bf:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "petstore.yaml",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: petstore.yaml",
+      "createdAt": 1777533755822,
+      "lastValidated": 1777533755822
+    }
+  ]
+}

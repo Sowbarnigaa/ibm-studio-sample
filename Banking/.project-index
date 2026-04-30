@@ -1,0 +1,242 @@
+{
+  "nodes": [
+    {
+      "id": "081bdcd6-e6b3-4e20-80ec-14b0aa43c0f3:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/endpoint.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767847,
+      "schemaVersion": 1
+    },
+    {
+      "id": "0a2a6e98-0c25-40be-80d1-6d1b4bfb82d7:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/policySeq/policyseq.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533768672,
+      "schemaVersion": 1
+    },
+    {
+      "id": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/petstore.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767857,
+      "schemaVersion": 1
+    },
+    {
+      "id": "57629118-d770-40f9-b521-69dc45f25bc2:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/transportPolicy.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533769347,
+      "schemaVersion": 1
+    },
+    {
+      "id": "6f84435c-cd1b-49b3-9d35-538b0aba938d:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/policyseq.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533768684,
+      "schemaVersion": 1
+    },
+    {
+      "id": "7b9e720a-a448-489f-920d-db77d113e4ae:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/api.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533767131,
+      "schemaVersion": 1
+    },
+    {
+      "id": "8fd7ef33-1fb9-4e18-8013-4477ff4f60f3:0",
+      "projectId": "cqFBP3hL",
+      "filePath": "Banking/route.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1777533769341,
+      "schemaVersion": 1,
+      "kind": "Route",
+      "name": "my-default-routing",
+      "namespace": "dev",
+      "version": 1,
+      "contentHash": "aaf0168a96f30517"
+    }
+  ],
+  "edges": [
+    {
+      "id": "172bace8-276a-481c-908a-7b2c49b55e1b",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "6f84435c-cd1b-49b3-9d35-538b0aba938d:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:my-default-routing:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:my-default-routing:1.0",
+      "createdAt": 1777533768686,
+      "lastValidated": 1777533768686
+    },
+    {
+      "id": "1fed41f3-dc4c-4960-b0da-6e32b06fdf6e",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/ApiResponse",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/ApiResponse",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    },
+    {
+      "id": "27a82a63-dee4-4de5-8137-9381b05260f6",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "8fd7ef33-1fb9-4e18-8013-4477ff4f60f3:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:default_endpoint:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:default_endpoint:1.0",
+      "createdAt": 1777533769344,
+      "lastValidated": 1777533769344
+    },
+    {
+      "id": "34ca0ffc-f880-413e-8d7b-3d50befcbf45",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "0a2a6e98-0c25-40be-80d1-6d1b4bfb82d7:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:enable_https:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:enable_https:1.0",
+      "createdAt": 1777533768679,
+      "lastValidated": 1777533768679
+    },
+    {
+      "id": "523d9b1c-c288-468f-b12d-3f02c8ba486e",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/User",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/User",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    },
+    {
+      "id": "53979233-a8f0-4f3d-a6cb-267b43be022b",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Tag",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Tag",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    },
+    {
+      "id": "5c867bce-4926-47df-9a4b-feb8206b8c4c",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "7b9e720a-a448-489f-920d-db77d113e4ae:0",
+      "targetNodeId": "1f2f1ca7-f4d6-4df0-bc16-bfb2002c5b85:0",
+      "targetRefType": "cross-project",
+      "targetRefString": "dev:dev_policies:1.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1777533767133,
+      "lastValidated": 1777533767133
+    },
+    {
+      "id": "734bc5f0-a7ab-4f2c-9cf5-63e08841013c",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "0a2a6e98-0c25-40be-80d1-6d1b4bfb82d7:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:my-default-routing:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:my-default-routing:1.0",
+      "createdAt": 1777533768679,
+      "lastValidated": 1777533768679
+    },
+    {
+      "id": "8135a50b-f26e-48fa-a7b6-984646835684",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "7b9e720a-a448-489f-920d-db77d113e4ae:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "petstore.yaml",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: petstore.yaml",
+      "createdAt": 1777533767134,
+      "lastValidated": 1777533767134
+    },
+    {
+      "id": "c0e8990d-cb54-4434-b758-d6b35053c1c6",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Order",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Order",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    },
+    {
+      "id": "c4c87c2d-3ef5-410a-a57d-fb3c9d6f5a2b",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Category",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Category",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    },
+    {
+      "id": "cbc005ce-003d-49f2-a9fc-c317b3695120",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "6f84435c-cd1b-49b3-9d35-538b0aba938d:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "dev:enable_https:1.0",
+      "targetRefKind": "resource",
+      "isValid": false,
+      "invalidReason": "Target resource not found: dev:enable_https:1.0",
+      "createdAt": 1777533768686,
+      "lastValidated": 1777533768686
+    },
+    {
+      "id": "cbe9a08b-3fae-4e29-a2c4-e1bdee56f761",
+      "projectId": "cqFBP3hL",
+      "sourceNodeId": "4dfa5447-354d-4e4b-825c-ce0ba71fa873:0",
+      "targetNodeId": null,
+      "targetRefType": "same-project",
+      "targetRefString": "#/definitions/Pet",
+      "targetRefKind": "support",
+      "isValid": false,
+      "invalidReason": "Target file not found: #/definitions/Pet",
+      "createdAt": 1777533767865,
+      "lastValidated": 1777533767865
+    }
+  ]
+}

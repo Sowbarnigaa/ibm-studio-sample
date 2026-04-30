@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "48410265-1d03-4c44-819d-7a831abc41ea:0",
+      "projectId": "RHQTxDcp",
+      "filePath": "new2/endpoint3.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533758666,
+      "schemaVersion": 1
+    },
+    {
+      "id": "e60d8fde-c7bd-4326-ba99-030ff832197d:0",
+      "projectId": "RHQTxDcp",
+      "filePath": "new2/endpoint2.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533757936,
+      "schemaVersion": 1
+    },
+    {
+      "id": "ffb55ec0-44d4-46cc-a61b-ffa8319eea8f:0",
+      "projectId": "RHQTxDcp",
+      "filePath": "new2/transport2.yaml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777533759362,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": []
+}
