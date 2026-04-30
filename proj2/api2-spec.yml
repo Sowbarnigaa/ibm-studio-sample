@@ -2,5 +2,5 @@ openapi: 3.0.4
 info:
   title: api2
   version: '1.0'
-  description: ''
+  description: '   '
 paths: {}
