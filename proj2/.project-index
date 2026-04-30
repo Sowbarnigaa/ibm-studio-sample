@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "2815ee64-fe40-4be0-96f1-bd57886f3127:0",
+      "projectId": "EyTSMaj6",
+      "filePath": "proj2/api2-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777541846840,
+      "schemaVersion": 1
+    },
+    {
+      "id": "3aaef1e7-e1e7-41bd-83fe-8614698b7df4:0",
+      "projectId": "EyTSMaj6",
+      "filePath": "proj2/api2.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1777541847917,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "api2",
+      "namespace": "proj2",
+      "version": "1.0",
+      "contentHash": "ef9df60f5e8c4953"
+    },
+    {
+      "id": "7facaaff-d15f-4c71-a509-66d5117e524e:0",
+      "projectId": "EyTSMaj6",
+      "filePath": "proj2/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1777541824604,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "6edf1d47-c04f-40b4-8495-1fee48d20ea4",
+      "projectId": "EyTSMaj6",
+      "sourceNodeId": "3aaef1e7-e1e7-41bd-83fe-8614698b7df4:0",
+      "targetNodeId": "2815ee64-fe40-4be0-96f1-bd57886f3127:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./api2-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1777541847932,
+      "lastValidated": 1777541847932
+    }
+  ]
+}
