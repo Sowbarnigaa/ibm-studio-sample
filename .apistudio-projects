@@ -58,3 +58,11 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1777543049406
+  DPNano_Product_MultiAPI:
+    id: TgMrcMho
+    description: Multi-API product with weather and storm APIs for DataPower Nano Gateway
+    tags:
+      - DataPower Nano Gateway
+      - multi-api
+      - product
+    lastUpdated: 1783365102884
