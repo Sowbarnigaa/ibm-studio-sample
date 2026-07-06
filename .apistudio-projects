@@ -65,4 +65,12 @@ projects:
       - DataPower Nano Gateway
       - multi-api
       - product
-    lastUpdated: 1783365102884
+    lastUpdated: 1783365118641
+  DPNano_Product_Weather:
+    id: 2RVuNsti
+    description: Authenticated Weather API with Products and Plans having unlimited quota.
+    tags:
+      - DataPower Nano Gateway
+      - weather-api
+      - authentication
+    lastUpdated: 1783366670751
