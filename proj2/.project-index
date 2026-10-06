@@ -15,13 +15,13 @@
       "filePath": "proj2/api2.yaml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1777541847917,
+      "lastIndexed": 1791272493652,
       "schemaVersion": 1,
       "kind": "API",
-      "name": "api2",
+      "name": "api2hello",
       "namespace": "proj2",
       "version": "1.0",
-      "contentHash": "ef9df60f5e8c4953"
+      "contentHash": "3fba1c6ca63d7d08"
     },
     {
       "id": "7facaaff-d15f-4c71-a509-66d5117e524e:0",
