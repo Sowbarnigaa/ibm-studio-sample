@@ -15,13 +15,13 @@
       "filePath": "proj2/api2.yaml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1791272493652,
+      "lastIndexed": 1791272567966,
       "schemaVersion": 1,
       "kind": "API",
-      "name": "api2hello",
+      "name": "api2tryon",
       "namespace": "proj2",
       "version": "1.0",
-      "contentHash": "3fba1c6ca63d7d08"
+      "contentHash": "85dc98c0cdef4d90"
     },
     {
       "id": "7facaaff-d15f-4c71-a509-66d5117e524e:0",

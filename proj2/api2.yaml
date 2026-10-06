@@ -1,7 +1,7 @@
 kind: API
 apiVersion: api.ibm.com/v1
 metadata:
-  name: api2hello
+  name: api2tryon
   version: '1.0'
   namespace: proj2
   tags: []
