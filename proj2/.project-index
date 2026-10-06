@@ -10,6 +10,15 @@
       "schemaVersion": 1
     },
     {
+      "id": "2faa80e2-9212-4feb-ba72-766fb2f89faf:0",
+      "projectId": "EyTSMaj6",
+      "filePath": "proj2/newfile.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1791272817394,
+      "schemaVersion": 1
+    },
+    {
       "id": "3aaef1e7-e1e7-41bd-83fe-8614698b7df4:0",
       "projectId": "EyTSMaj6",
       "filePath": "proj2/api2.yaml",
