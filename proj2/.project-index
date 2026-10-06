@@ -24,6 +24,15 @@
       "contentHash": "85dc98c0cdef4d90"
     },
     {
+      "id": "4342f3e3-64cf-47d7-931a-facbbe8e9013:0",
+      "projectId": "EyTSMaj6",
+      "filePath": "proj2/hello.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1791272707451,
+      "schemaVersion": 1
+    },
+    {
       "id": "7facaaff-d15f-4c71-a509-66d5117e524e:0",
       "projectId": "EyTSMaj6",
       "filePath": "proj2/.project-index",
